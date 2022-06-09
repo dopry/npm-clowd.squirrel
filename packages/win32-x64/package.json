@@ -1,0 +1,38 @@
+{
+  "//name": "@clowd/squirrel-win32-x64",
+  "name": "@dopry/clowd-squirrel-win32-x64",
+  "version": "0.1.1",
+  "description": "Windows x64 Squirrel binaries used by @cloud/squirrel",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "assets/"
+  ],
+  "bin": {
+    "squirrel": "./assets/Squirrel.exe"
+  },
+  "scripts": {
+    "prepare": "node ../../ghrelease-prepare.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dopry/npm-clowd.squirrel.git",
+    "directory": "packages/win32-x64"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dopry/npm-clowd.squirrel/issues"
+  },
+  "homepage": "https://github.com/dopry/npm-clowd.squirrel#readme",
+  "ghreleaseInstaller": {
+    "owner": "clowd",
+    "repo": "clowd.squirrel",
+    "version": "2.9.40",
+    "assetName": "SquirrelTools-${version}.zip"
+  }
+}

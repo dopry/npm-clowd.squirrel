@@ -1,0 +1,44 @@
+{
+  "//name": "@clowd/squirrel",
+  "name": "@dopry/clowd-squirrel",
+  "version": "0.0.0-development",
+  "description": "NPM Distribution for Cloud.Squirrel Binaries ",
+  "main": "index.js",
+  "files": [
+    "vendor",
+    "ghrelease-installer.js"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dopry/npm-clowd.squirrel.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dopry/npm-clowd.squirrel/issues"
+  },
+  "homepage": "https://github.com/dopry/npm-clowd.squirrel#readme",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "extract-zip": "^2.0.1",
+    "mkdirp": "^1.0.4",
+    "node-fetch": "^2.6.7"
+  },
+  "//optionalDependencies": {
+    "@clowd/squirrel-darwin-arm64": "*",
+    "@clowd/squirrel-darwin-x64": "*",
+    "@clowd/squirrel-linux-arm64": "*",
+    "@clowd/squirrel-linux-x64": "*",
+    "@clowd/squirrel-win32-x64": "*"
+  },
+   "optionalDependencies": {
+    "@dopry/clowd-squirrel-darwin-arm64": "*",
+    "@dopry/clowd-squirrel-darwin-x64": "*",
+    "@dopry/clowd-squirrel-linux-arm64": "*",
+    "@dopry/clowd-squirrel-linux-x64": "*",
+    "@dopry/clowd-squirrel-win32-x64": "*"
+  }
+}

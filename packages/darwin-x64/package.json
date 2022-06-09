@@ -1,0 +1,26 @@
+{
+  "//name": "@clowd/squirrel-darwin-x64",
+  "name": "@dopry/clowd-squirrel-darwin-x64",
+  "version": "0.0.0-dev",
+  "description": "MacOS x64 Noop used by @cloud/squirrel",
+  "os": ["darwin"],
+  "cpu": ["x64"],
+  "files": [
+    "../../noop.js"
+  ],
+  "bin": {
+    "squirrel": "noop.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dopry/npm-clowd.squirrel.git",
+    "directory": "packages/darwin-x64"
+  },
+  "author": "Darrel O'Pry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dopry/npm-clowd.squirrel/issues"
+  },
+  "homepage": "https://github.com/dopry/npm-clowd.squirrel#readme"
+}
